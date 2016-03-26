@@ -1,0 +1,52 @@
+body{
+  margin:0;
+  color: #fff;
+  background: blue;
+}
+
+header {
+  background: #0ff;
+  color: white;
+
+}
+
+header h2 {
+  margin: 0;
+  display: inline;
+}
+
+nav ul {
+  margin: 0;
+  display: inline;
+}
+
+nav ul li{
+  display: inline-block;
+  list-style-type:none;
+  padding: 5px 20px;
+}
+nav ul li a{
+  color:white;
+}
+
+.row {
+
+}
+
+.col {
+
+  background: #222;
+  float:left;
+  width:33%;
+  border-radius: 5px;
+
+}
+
+.profile {
+  padding: 20px 50px;
+  align-content: center;
+}
+
+footer {
+  clear:both;
+}

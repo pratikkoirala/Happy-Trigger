@@ -1,0 +1,81 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Testing</title>
+    <link rel="stylesheet" href="views/css/settingsc.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+  </head>
+  <body>
+  <header>
+      <nav>
+      <img src="views/img/logo.png"></img>
+      </nav>
+  </header>
+  <div class= "profile">
+    <img src="views/img/player1.png" height="50" width="50"></img>
+  </div>
+  <div class="container">
+    <div class="row">
+
+      <div class="col-lg-12">
+        <div class="input-group">
+          <input type="text" class="form-control" aria-label="...">
+          <div class="input-group-btn">
+            <button type="button" class="btn btn-default btn-lg">Enter</button>
+
+          </div><!-- /btn-group -->
+        </div><!-- /input-group -->
+      </div><!-- /.col-lg-6 -->
+      </div><!-- /.row -->
+
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Team
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#">Red</a></li>
+          <li><a href="#">Green</a></li>
+          <li><a href="#">Blue</a></li>
+        </ul>
+      </div>
+      <div class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+          Score Limit
+          <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+          <li><a href="#">100</a></li>
+          <li><a href="#">200</a></li>
+          <li><a href="#">300</a></li>
+          <li><a href="#">400</a></li>
+          <li><a href="#">500</a></li>
+          <li><a href="#">600</a></li>
+          <li><a href="#">700</a></li>
+          <li><a href="#">800</a></li>
+          <li><a href="#">900</a></li>
+          <li><a href="#">100</a></li>
+        </ul>
+      </div>
+      <button type="button" class="btn btn-default btn-lg">
+      Scan Code
+      </button>
+      <button type="button" class="btn btn-default btn-lg">
+      Send Code
+      </button>
+      <br>
+      <button type="button" class="btn btn-default btn-lg" ng-click='goNext("/hostgame")'>
+      Host Game
+      </button>
+    </div>
+  </div>
+  <footer> Copyright 2016.</footer>
+  </body>
+</html>
